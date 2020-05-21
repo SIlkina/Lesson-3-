@@ -6,12 +6,14 @@
 
 
 var week = {
-    First: 'Monday',
-    Second: 'Tuesday',
-    Third: 'Wednwsday',
-    Fourth: 'Thursday',
-    Fifth: 'Friday',
-    Sixth: 'Saturday',
-    Seventh: 'Sunday'
+    1: 'Monday',
+    2: 'Tuesday',
+    3: 'Wednwsday',
+    4: 'Thursday',
+    5: 'Friday',
+    6: 'Saturday',
+    7: 'Sunday'
 }
-console.log(week.Third);
+console.log(week);
+var day = 3;
+console.log(week[day]);

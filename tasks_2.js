@@ -7,7 +7,7 @@
 
 var city1 = {
     name:'ГородN',
-    population: 1e6,
+    population: 10000000,
 } 
 console.log(city1);
 
